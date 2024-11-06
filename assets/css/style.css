@@ -118,18 +118,24 @@ h1, h2, h3, h4, h5, h6 {
   background: #e9e8e6;
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
-  padding: 15px 0;
+  padding: 30px 0; /* Increased padding to make header taller */
 }
+
+#header .container-fluid {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center;     /* Center the content vertically */
+}
+
 
 #header .logo {
   font-size: 32px;
-  margin: 0;
+  margin-right:auto;
   padding: 0;
   line-height: 1;
   font-weight: 200;
   letter-spacing: 2px;
   text-transform: uppercase;
-
 }
 
 #header .logo a {
@@ -137,7 +143,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  height: 60px;            /* Sets the logo height */
+  margin-right: 10px;      /* Adds space between the logo and the name */
+  vertical-align: middle;  /* Aligns logo with the text */
 }
 
 @media (max-width: 992px) {
@@ -150,7 +158,17 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
+.nav-menu {
+  display: flex;
+  justify-content: center; /* Center the entire navigation menu */
+  align-items: center;
+  flex: 1; /* Allow it to take up space and center align */
+}
+
 .nav-menu ul {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -158,12 +176,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu > ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 10px 0 10px 28px;
+  padding: 10px 20px;
 }
 
 .nav-menu a {
@@ -174,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  word-spacing: 50%;
+  word-spacing: center;
 
 }
 
