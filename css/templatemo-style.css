@@ -26,7 +26,7 @@ html,body {
 
 h1,h2,h3,h4,h5,h6 {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h1,h2,h3 {
@@ -34,7 +34,7 @@ h1,h2,h3 {
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 52px;
   padding-bottom: 14px;
   margin-bottom: 0px;
 }
@@ -145,6 +145,7 @@ footer {
 #experience,
 #education {
   background: #219ebc;
+ 
 }
 
 .background-image {
@@ -166,6 +167,10 @@ footer {
 
 .color-yellow {
   color: #ffb703;
+}
+
+.color-dark {
+  color: #023047;
 }
 
 .bg-yellow {
@@ -388,6 +393,7 @@ a:hover, a:active, a:focus {
 
 #about .about-img {
     background: url('../images/about-img.jpg') no-repeat;
+
 }
 
 #about .about-thumb,
@@ -421,29 +427,22 @@ a:hover, a:active, a:focus {
 
 #service {
   background: #fb8500;
-  display: flex;
-  align-items: stretch;
-  text-align: center;
+
 
 }
 
 #service p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 30px;
 }
 
 #service .service-thumb {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 350px; /* Adjust this as needed */
-  padding: 20px;
-  
+  padding: 52px 22px 52px 22px;
 }
 
 #service .service-thumb .fa {
   font-size: 42px;
-  padding-bottom: 10px;
+  padding-bottom: 22px;
 
 }
 
@@ -455,6 +454,7 @@ a:hover, a:active, a:focus {
 
 #experience .experience-img {
   background: url('../images/experience-img.jpg') no-repeat;
+
 }
 
 #experience .media-heading {
@@ -481,6 +481,7 @@ a:hover, a:active, a:focus {
 
 #education .education-img {
   background: url('../images/education-img.jpg') no-repeat;
+
 }
 
 #education .media-heading {
@@ -687,14 +688,7 @@ footer {
   #home .container,
   #about .container, 
   #experience .container,
-  #service .container {
-    display: flex;
-    align-items: stretch;
-    width: 100%;
-    height: 100%;
-  
-
-  },
+  #service .container,
   #education .container,
   #contact .container {
     padding-right: 15px;
@@ -702,7 +696,7 @@ footer {
   }
 
   #about .col-md-3,
-  #experience .col-md-6,
+  #experience .col-md-6 
   #education .col-md-6,
   #contact .col-md-3 {
     padding: 0;
