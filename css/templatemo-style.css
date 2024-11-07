@@ -134,7 +134,7 @@ p {
 #experience .experience-thumb {
   padding: 20px;
   overflow: hidden;
-},
+}
 #education .education-thumb  {
   padding: 22px 42px 42px 42px;
 }
@@ -705,7 +705,7 @@ footer {
     height: 100%;
   
 
-  },
+  }
   #education .container,
   #contact .container {
     padding-right: 15px;
@@ -715,7 +715,7 @@ footer {
   #about .col-md-3,
   #experience .col-md-6 {
     overflow: hidden;
-  },
+  }
   #education .col-md-6,
   #contact .col-md-3 {
     padding: 0;
